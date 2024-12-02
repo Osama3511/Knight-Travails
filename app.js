@@ -50,7 +50,7 @@ function knightMoves(startArr, endArr) {
 
   const moves = findMoves();
 
-  console.log(`You made it in ${moves.length - 1} moves!  Here is your path: `);
+  console.log(`You made it in ${moves.length - 1} moves! here is your path`);
   for(let move of moves) {
     console.log(move);
   }
